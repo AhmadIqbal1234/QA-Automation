@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","82","Given I am on the login page","","Sun Dec 22 12:58:35 WIB 2024","passed","Sun Dec 22 12:58:35 WIB 2024","","Sauce Demo Website: As a user, I can log into the Sauce Demo website","",""
+"","1","hook:","","Sun Dec 22 12:58:36 WIB 2024","failed","Sun Dec 22 12:58:36 WIB 2024","","","",""
+"","487","When I login with standard_user and secret_sauce","","Sun Dec 22 12:58:35 WIB 2024","passed","Sun Dec 22 12:58:35 WIB 2024","","Sauce Demo Website: As a user, I can log into the Sauce Demo website","",""
+"","344","When I login with lockedt_user and secret_sauce","","Sun Dec 22 12:58:35 WIB 2024","passed","Sun Dec 22 12:58:36 WIB 2024","","Sauce Demo Website: As a user, I can log into the Sauce Demo website","",""
+"","39","Then I should see a flash message saying Epic sadface: Username and password do not match any user in this service","","Sun Dec 22 12:58:36 WIB 2024","passed","Sun Dec 22 12:58:36 WIB 2024","","Sauce Demo Website: As a user, I can log into the Sauce Demo website","",""
+"","66","Then I should see a flash message saying Products","","Sun Dec 22 12:58:35 WIB 2024","passed","Sun Dec 22 12:58:35 WIB 2024","","Sauce Demo Website: As a user, I can log into the Sauce Demo website","",""

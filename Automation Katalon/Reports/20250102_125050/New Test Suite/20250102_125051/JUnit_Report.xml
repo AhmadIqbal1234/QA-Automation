@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="19.045" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="19.045" skipped="0" timestamp="2025-01-02 12:51:03" hostname="rachm - Rachmad" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rachm\\Katalon Studio\\Automation web\\Reports\\20250102_125050\\New Test Suite\\20250102_125051"/>
+         <property name="logFiles" value="C:\\Users\\rachm\\Katalon Studio\\Automation web\\Reports\\20250102_125050\\New Test Suite\\20250102_125051\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rachm - Rachmad"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.83"/>
+         <property name="sessionId" value="8b0b40217c6c15b0a52d9da7d5e40059"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="18.819" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2025-01-02 12:51:03 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2025-01-02 12:51:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-01-02 12:51:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-02 12:51:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-02 12:51:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-02 12:51:06 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-02 12:51:09 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-02 12:51:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_OrangeHRM/input_Username_username"), usernameValid): Text 'Admin' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Username_username'
+
+2025-01-02 12:51:10 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Username_username'
+
+2025-01-02 12:51:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_OrangeHRM/input_Password_password"), passwordInvalid): Text ****** has been set on object 'Object Repository/Login/Page_OrangeHRM/input_Password_password'
+
+2025-01-02 12:51:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_OrangeHRM/input_Password_password'
+
+2025-01-02 12:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on
+
+2025-01-02 12:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on
+
+2025-01-02 12:51:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/Page_OrangeHRM/div_Invalid credentials")): Object 'Object Repository/Login/Page_OrangeHRM/div_Invalid credentials' is visible
+
+2025-01-02 12:51:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_OrangeHRM/div_Invalid credentials' is visible
+
+2025-01-02 12:51:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_OrangeHRM/input_Username_username"), usernameInvalid): Text 'Admin12' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Username_username'
+
+2025-01-02 12:51:13 - [MESSAGE][PASSED] - Text 'Admin12' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Username_username'
+
+2025-01-02 12:51:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_OrangeHRM/input_Password_password"), passwordValid): Text ****** has been set on object 'Object Repository/Login/Page_OrangeHRM/input_Password_password'
+
+2025-01-02 12:51:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_OrangeHRM/input_Password_password'
+
+2025-01-02 12:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on
+
+2025-01-02 12:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on
+
+2025-01-02 12:51:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Login/Page_OrangeHRM/div_Invalid credentials")): Object 'Object Repository/Login/Page_OrangeHRM/div_Invalid credentials' is visible
+
+2025-01-02 12:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_OrangeHRM/div_Invalid credentials' is visible
+
+2025-01-02 12:51:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on
+
+2025-01-02 12:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on
+
+2025-01-02 12:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_OrangeHRM/span_Required")): Object: 'Object Repository/Login/Page_OrangeHRM/span_Required' is clicked on
+
+2025-01-02 12:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_OrangeHRM/span_Required' is clicked on
+
+2025-01-02 12:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_OrangeHRM/span_Required")): Object: 'Object Repository/Login/Page_OrangeHRM/span_Required' is clicked on
+
+2025-01-02 12:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_OrangeHRM/span_Required' is clicked on
+
+2025-01-02 12:51:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_OrangeHRM/input_Username_username"), usernameValid): Text 'Admin' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Username_username'
+
+2025-01-02 12:51:17 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/Page_OrangeHRM/input_Username_username'
+
+2025-01-02 12:51:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_OrangeHRM/input_Password_password"), passwordValid): Text ****** has been set on object 'Object Repository/Login/Page_OrangeHRM/input_Password_password'
+
+2025-01-02 12:51:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_OrangeHRM/input_Password_password'
+
+2025-01-02 12:51:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on
+
+2025-01-02 12:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_OrangeHRM/button_Login' is clicked on
+
+2025-01-02 12:51:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Login/Page_OrangeHRM/div_Dashboard")): Object 'Object Repository/Login/Page_OrangeHRM/div_Dashboard' is visible
+
+2025-01-02 12:51:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_OrangeHRM/div_Dashboard' is visible
+
+2025-01-02 12:51:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-01-02 12:51:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-01-02 12:51:03 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
